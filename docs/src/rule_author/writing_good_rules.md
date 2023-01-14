@@ -150,7 +150,7 @@ end
 to define the rules.
 
 ## Ensure your pullback can accept the right types
-As a rule the number of types you need to accept in a pullback is theoretically unlimitted, but practically highly constrained to be in line with the primal return type.
+As a rule the number of types you need to accept in a pullback is theoretically unlimited, but practically highly constrained to be in line with the primal return type.
 The three kinds of inputs you will practically need to accept one or more of: _natural tangents_, _structural tangents_, and _thunks_.
 You do not in general have to handle `AbstractZero`s as the AD system will not call the pullback if the input is a zero, since the output will also be.
 Some more background information on these types can be found in [the design notes](@ref manytypes).
